@@ -8,7 +8,7 @@ Simple source the module from your terraform code and pass in the required varia
 
 ```
 module "password-policy" {
-  source = "../../modules/core/aws-iam-password-policy"
+  source = "../../modules/aws-iam-password-policy"
 
   region            = "eu-west-1"
   minimum_length    = 16
