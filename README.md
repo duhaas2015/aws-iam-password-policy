@@ -25,14 +25,14 @@ module "password-policy" {
 
 ## What are the variables?
 
-The module has 5 variables which do the following:
+The module has 9 variables which do the following:
 
 1. Region - which aws region you want the resource to be built in. (Default: eu-west-1)
-1. Minimum length - The shortest length a password can be (Default: 16 characters)
-2. Require lowercase - Must the password contain lowercase characters (Default: True)
-2. Require uppercase - Must the password contain uppercase characters (Default: True)
-2. Require numbers - Must the password contain numbers (Default: True)
-2. Require symbols - Must the password contain symbols (Default: True)
-3. User Change - Whether to allow users to change their own password (Default: True)
-4. Harx Expiry - Whether users are prevented from setting a new password after their password has expired (i.e. require administrator reset) (Default: False)
-5. Reuse History - The number of previous passwords that users are prevented from reusing. (Default: 24)
+2. Minimum length - The shortest length a password can be (Default: 16 characters)
+3. Require lowercase - Must the password contain lowercase characters (Default: True)
+4. Require uppercase - Must the password contain uppercase characters (Default: True)
+5. Require numbers - Must the password contain numbers (Default: True)
+6. Require symbols - Must the password contain symbols (Default: True)
+7. User Change - Whether to allow users to change their own password (Default: True)
+8. Harx Expiry - Whether users are prevented from setting a new password after their password has expired (i.e. require administrator reset) (Default: False)
+9. Reuse History - The number of previous passwords that users are prevented from reusing. (Default: 24)
